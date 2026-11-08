@@ -1,0 +1,6 @@
+{
+  "name": "Katana Nectar 3D — Ninja Fruit Slice",
+  "description": "Fast-paced 3D ninja fruit slicing game with realistic physics, unique power-ups, daily challenges, global leaderboards, and offline PWA play. Created by Rajveer Singh Rana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="rind" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <linearGradient id="flesh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+    <linearGradient id="blade" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Top half of sliced watermelon -->
+  <g transform="translate(-14, -18) rotate(-8 256 256)">
+    <path d="M 116 276 A 140 140 0 0 1 396 276 Z" fill="url(#rind)" />
+    <path d="M 134 276 A 122 122 0 0 1 378 276 Z" fill="url(#flesh)" />
+    <circle cx="215" cy="215" r="7" fill="#0f172a" />
+    <circle cx="256" cy="195" r="7" fill="#0f172a" />
+    <circle cx="297" cy="215" r="7" fill="#0f172a" />
+  </g>
+  <!-- Bottom half of sliced watermelon -->
+  <g transform="translate(16, 22) rotate(-8 256 256)">
+    <path d="M 116 286 A 140 140 0 0 0 396 286 Z" fill="url(#rind)" />
+    <path d="M 134 286 A 122 122 0 0 0 378 286 Z" fill="url(#flesh)" />
+    <circle cx="225" cy="340" r="7" fill="#0f172a" />
+    <circle cx="268" cy="355" r="7" fill="#0f172a" />
+    <circle cx="305" cy="332" r="7" fill="#0f172a" />
+  </g>
+  <!-- Katana Slash -->
+  <path d="M 68 360 Q 256 265 448 168 Q 266 290 68 360 Z" fill="url(#blade)" />
+</svg>
